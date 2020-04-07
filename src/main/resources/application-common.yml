@@ -1,0 +1,11 @@
+
+kafka:  
+ serveripaddress: localhost:9092
+ groupid: DarshanGroupID
+ autooffsetresetconfig: earliest
+
+server:
+  servlet:
+      context-path: /kafka  
+  
+ 
